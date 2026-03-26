@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Fish Australia | The Unlimited Candy Subscription</title>
+    <meta name="description" content="Get the iconic Swedish Fish delivered to your door in Australia. Learn the secret behind the squish and join the exclusive candy subscription.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FFF5F5;
+        }
+        .font-bungee {
+            font-family: 'Bungee', cursive;
+        }
+        .bg-swedish-red {
+            background-color: #E31837;
+        }
+        .text-swedish-red {
+            color: #E31837;
+        }
+        .bg-swedish-blue {
+            background-color: #006AA7;
+        }
+        .floating-fish {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(5deg); }
+            50% { transform: translateY(-20px) rotate(-5deg); }
+        }
+        .gradient-mesh {
+            background-color: #E31837;
+            background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+                              radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+                              radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b-4 border-black px-4 py-3">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-6 bg-swedish-red rounded-full flex items-center justify-center">
+                    <div class="w-2 h-2 bg-white rounded-full ml-auto mr-2"></div>
+                </div>
+                <span class="font-bungee text-xl tracking-tighter uppercase">Swedish Fish AU</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-bold uppercase text-sm tracking-widest">
+                <a href="#how-it-works" class="hover:text-swedish-red transition">The Secret</a>
+                <a href="#social" class="hover:text-swedish-red transition">The Fam</a>
+                <a href="#pricing" class="hover:text-swedish-red transition">Subscriptions</a>
+            </div>
+            <a href="#pricing" class="bg-swedish-red text-white px-6 py-2 rounded-full font-black uppercase text-xs hover:scale-105 transition active:scale-95 border-b-4 border-black">
+                Hook Me Up
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 px-4 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="z-10">
+                <span class="bg-yellow-400 text-black px-4 py-1 font-black rounded-sm uppercase text-sm mb-6 inline-block rotate-1">
+                    Now Shipping Down Under 🇦🇺
+                </span>
+                <h1 class="text-5xl md:text-7xl font-bungee leading-none mb-6 text-black">
+                    The World’s Most <span class="text-swedish-red">Addictive Fish</span> Just Landed.
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 font-medium mb-8 leading-relaxed">
+                    Forget the boring bears. Get the iconic candy you’ve seen all over TikTok, delivered to your door in Sydney, Melbourne, and beyond. Learn the secret behind the squish and join the stingray-speed subscription list.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#pricing" class="bg-swedish-red text-white text-center px-10 py-5 rounded-2xl font-bungee text-xl hover:bg-red-700 transition-all border-b-8 border-r-8 border-black hover:translate-x-1 hover:translate-y-1">
+                        HOOK ME UP NOW
+                    </a>
+                    <a href="#how-it-works" class="bg-white text-black text-center px-10 py-5 rounded-2xl font-bungee text-xl border-4 border-black hover:bg-gray-100 transition-all">
+                        THE SECRET
+                    </a>
+                </div>
+            </div>
+            <div class="relative flex justify-center">
+                <div class="w-80 h-80 md:w-[500px] md:h-[500px] bg-swedish-red rounded-full flex items-center justify-center relative">
+                    <div class="absolute -top-10 -right-10 bg-yellow-400 p-6 rounded-full border-4 border-black font-bungee text-center rotate-12 floating-fish">
+                        UNLIMITED <br> STASH
+                    </div>
+                    <img src="https://www.ikea.com/au/en/images/products/loeko-sweets-with-licorice-strawberry-flavour-gluten-free__0888019_pe677579_s5.jpg?f=s" alt="Swedish Fish Candy" class="w-4/5 object-contain drop-shadow-2xl mix-blend-multiply">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Process Section -->
+    <section id="how-it-works" class="bg-black py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-white font-bungee text-4xl md:text-6xl mb-4 italic">What's the hype?</h2>
+                <p class="text-gray-400 font-bold uppercase tracking-widest text-sm">More than just a gummy</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white border-4 border-swedish-red p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="font-bungee text-6xl text-gray-100 absolute -bottom-4 -right-4 transition-all group-hover:text-swedish-red/20">01</div>
+                    <h3 class="font-bungee text-2xl mb-4 relative z-10">The Secret Process</h3>
+                    <p class="text-gray-600 font-medium relative z-10">
+                        Explore how our starch-mogul casting creates that legendary bite. It's not a jelly, it's a texture experience that took decades to perfect.
+                    </p>
+                </div>
+                
+                <div class="bg-white border-4 border-swedish-blue p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="font-bungee text-6xl text-gray-100 absolute -bottom-4 -right-4 transition-all group-hover:text-swedish-blue/20">02</div>
+                    <h3 class="font-bungee text-2xl mb-4 relative z-10">Unlimited Stash</h3>
+                    <p class="text-gray-600 font-medium relative z-10">
+                        Never run out mid-movie again. Our subscription means your candy bowl is always full. Tailored for absolute degenerate candy lovers.
+                    </p>
+                </div>
+
+                <div class="bg-white border-4 border-yellow-400 p-8 rounded-3xl relative overflow-hidden group">
+                    <div class="font-bungee text-6xl text-gray-100 absolute -bottom-4 -right-4 transition-all group-hover:text-yellow-400/20">03</div>
+                    <h3 class="font-bungee text-2xl mb-4 relative z-10">Import Exclusive</h3>
+                    <p class="text-gray-600 font-medium relative z-10">
+                        Hard to find at Coles, easy to find here. We bring the cult-classic directly to your door without the specialty store markups.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <button class="font-bungee text-yellow-400 hover:underline text-2xl">See How They're Made &rarr;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="social" class="py-24 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/2 grid grid-cols-2 gap-4">
+                    <div class="space-y-4">
+                        <img src="https://plus.unsplash.com/premium_photo-1671501338605-df36077c5784?auto=format&fit=crop&q=80&w=400" class="rounded-2xl border-4 border-black grayscale hover:grayscale-0 transition duration-500" alt="Gen Z Candy Fan">
+                        <div class="bg-swedish-red p-4 rounded-xl border-4 border-black text-white font-bold">
+                            "This hits different!" <br> - Amy, 17, Syd
+                        </div>
+                    </div>
+                    <div class="space-y-4 pt-12">
+                        <div class="bg-yellow-400 p-4 rounded-xl border-4 border-black text-black font-bold">
+                            "Finally in Oz!" <br> - Jaiden, 21, BNE
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1579468110271-42c239b880d1?auto=format&fit=crop&q=80&w=400" class="rounded-2xl border-4 border-black grayscale hover:grayscale-0 transition duration-500" alt="Social Proof">
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <h2 class="font-bungee text-4xl mb-6">Don't Just Take Our Word. Join the Fam.</h2>
+                    <blockquote class="italic border-l-8 border-swedish-red pl-6 mb-8">
+                        <p class="text-2xl font-bold italic mb-2">"I used to pay $12 a bag at specialty shops. This subscription is a game changer! It's like a cheat code for candy snacks."</p>
+                        <cite class="font-bungee text-swedish-red">— Liam, 19, Melbourne</cite>
+                    </blockquote>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="flex -space-x-4">
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-gray-200"></div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-gray-300"></div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-gray-400"></div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-swedish-red flex items-center justify-center text-xs font-black text-white">+5k</div>
+                        </div>
+                        <p class="font-bold text-gray-600">Join 5,000+ Aussies in the Swedish Fish Fam.</p>
+                    </div>
+                    <a href="#pricing" class="inline-block bg-black text-white px-8 py-4 rounded-xl font-bungee hover:bg-swedish-red transition-all">Join the Fam &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Tiers -->
+    <section id="pricing" class="py-24 px-4 gradient-mesh">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-white font-bungee text-5xl mb-4">UNLIMITED FISH. <br> ZERO REGRETS.</h2>
+                <p class="text-white/80 font-bold uppercase tracking-widest">Cancel anytime. Free shipping across Australia.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Tier 1 -->
+                <div class="bg-white rounded-[40px] p-10 border-4 border-black flex flex-col">
+                    <div class="mb-8 flex justify-between items-start">
+                        <div>
+                            <h3 class="font-bungee text-3xl">THE GUPPY</h3>
+                            <p class="font-bold text-gray-500">Perfect for casual snacking</p>
+                        </div>
+                        <span class="bg-gray-100 p-2 rounded-lg font-black">1KG / MO</span>
+                    </div>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center gap-3 font-bold"><span class="text-green-500">✔</span> Monthly Delivery</li>
+                        <li class="flex items-center gap-3 font-bold"><span class="text-green-500">✔</span> Free AU Shipping</li>
+                        <li class="flex items-center gap-3 font-bold"><span class="text-green-500">✔</span> Member-only Drops</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <div class="text-4xl font-black mb-6">$29<span class="text-sm text-gray-400">/month</span></div>
+                        <button class="w-full py-4 bg-gray-100 text-black border-2 border-black font-bungee text-xl rounded-2xl hover:bg-black hover:text-white transition">HOOK ME UP</button>
+                    </div>
+                </div>
+
+                <!-- Tier 2 -->
+                <div class="bg-yellow-400 rounded-[40px] p-10 border-4 border-black flex flex-col relative overflow-hidden">
+                    <div class="absolute top-6 right-[-40px] bg-red-600 text-white px-12 py-1 rotate-45 font-black text-sm uppercase">
+                        MOST POPULAR
+                    </div>
+                    <div class="mb-8 flex justify-between items-start">
+                        <div>
+                            <h3 class="font-bungee text-3xl">THE GREAT WHITE</h3>
+                            <p class="font-bold text-red-900">For the ultimate addicts</p>
+                        </div>
+                        <span class="bg-red-600 text-white p-2 rounded-lg font-black uppercase text-xs italic">UNLIMITED</span>
+                    </div>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center gap-3 font-bold"><span class="text-red-700">✔</span> Weekly Top-ups</li>
+                        <li class="flex items-center gap-3 font-bold"><span class="text-red-700">✔</span> Express Courier</li>
+                        <li class="flex items-center gap-3 font-bold"><span class="text-red-700">✔</span> 2x Exclusive Flavor Access</li>
+                        <li class="flex items-center gap-3 font-bold"><span class="text-red-700">✔</span> Free Merch Welcome Box</li>
+                    </ul>
+                    <div class="mt-auto">
+                        <div class="text-4xl font-black mb-6">$69<span class="text-sm text-red-700">/month</span></div>
+                        <button class="w-full py-4 bg-swedish-red text-white border-2 border-black font-bungee text-xl rounded-2xl hover:-translate-y-1 transition-all shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">START MY SUBSCRIPTION</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
+            <div class="text-center md:text-left">
+                <div class="flex items-center gap-2 justify-center md:justify-start mb-4">
+                    <div class="w-10 h-6 bg-swedish-red rounded-full"></div>
+                    <span class="font-bungee text-2xl uppercase tracking-tighter">Swedish Fish AU</span>
+                </div>
+                <p class="text-gray-500 max-w-xs">The ultimate hub for candy lovers and gummy obsessives. Freshly imported and delivered fast.</p>
+            </div>
+            <div class="flex gap-8">
+                <a href="#" class="hover:text-swedish-red transition font-bold uppercase text-sm italic">TikTok</a>
+                <a href="#" class="hover:text-swedish-red transition font-bold uppercase text-sm italic">Instagram</a>
+                <a href="#" class="hover:text-swedish-red transition font-bold uppercase text-sm italic">Contact</a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 text-center flex flex-col md:flex-row justify-between text-xs text-gray-500 gap-4">
+            <p>&copy; 2024 Swedish Fish AU. Not affiliated with Mondelēz International.</p>
+            <div class="flex justify-center gap-4">
+                <a href="#" class="hover:underline">Terms of Service</a>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
